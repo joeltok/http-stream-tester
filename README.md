@@ -83,7 +83,6 @@ If not, we will get a `Error: Cross origin http://localhost forbidden` error.
   - contentType: the content-type header; default: application/octet-stream
   - axiosOptions: all options that the [axios](https://www.npmjs.com/package/axios) package supports.
 
+## Why axios?
 
-  ## Why axios?
-
-  This library spins up the app as a server internally, and has it listen to open ports on localhost. It then uses [axios](https://www.npmjs.com/package/axios) to write streams to the application via these ports. It shuts down the app/server automatically after tests are complete.
+This library spins up the app as a server internally, and has it listen to open ports on localhost. It then uses [axios](https://www.npmjs.com/package/axios) to write streams to the application via these ports. It shuts down the app/server automatically after tests are complete.
