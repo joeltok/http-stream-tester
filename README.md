@@ -27,7 +27,7 @@ app.post('/route',(req, res) => {
 
 app.test.js
 ```js
-const httpstreamtester = require('httpstreamtester')
+const httpstreamtester = require('http-stream-tester')
 const app = require('./app')
 
 describe('http-stream-tester', () => {
