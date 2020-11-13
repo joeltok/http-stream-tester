@@ -1,5 +1,5 @@
 {
-  "name": "http-stream-test",
+  "name": "http-stream-tester",
   "version": "0.1.0",
   "description": "An npm module to test streaming to express REST endpoints.",
   "main": "index.js",
